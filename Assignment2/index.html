@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My web page crazy pizza">
+    <meta name="robots" content="no index, no follow">
+    <title>Crazy Pizza WebPage</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!--Adding Css-->
+    <link rel="stylesheet" href="./Css/CssStyle.css">
+</head>
+
+
+<body>
+<!--The logo of my page-->
+<header>
+    <div>
+        <a href="index.html">
+            <img src="./Img/hh.jpg" alt="header logo">
+
+        </a>
+    </div>
+    <nav>
+        <menu>
+
+
+            <label for="menu">Choose Size:</label>
+            <select id="menu">
+                <option value="value1">Medium</option>
+                <option value="value2">Large</option>
+                <option value="value3">Extra Large</option>
+            </select>
+
+
+        </menu>
+    </nav>
+
+</header>
+
+<!--The main Title-->
+<section class="lesson-masthead">
+    <h1>Crazy Pizza</h1>
+</section>
+
+<!-- adding a div as a flex container for the main and aside -->
+<div class="flex-content-container">
+
+    <!--Main content of the page-->
+    <main>
+        <section>
+
+            <div>
+                <h3>Why Crazy Pizza??</h3>
+                <p>in Crazy pizza we have the most delicious flavors in the area</p>
+
+            </div>
+            <!--this is the image container-->
+        </section>
+
+        <section>
+            <!--image container to choose between pizza options-->
+            <div>
+                <img src="./Img/th.jpg" alt="th logo">
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>
+                    Once you have selected the Size NOW Select between these delicious options
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="./Img/pp.jpg" alt="image pp">
+
+                <p><input type="checkbox"></p>
+                <p>
+                    Select MALAWI
+                </p>
+
+            </div>
+            <div>
+                <img src="./Img/tt.jpg" alt="image tt">
+
+                <p><input type="checkbox"></p>
+                <p>
+                    Select WINTERFELL
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <aside>
+        <article>
+            <figure>
+                <img src="./Img/pp.jpg" alt="image pp">
+                <figcaption> MALAWI.This flavour will captivate your senses, with delicious cheese cover</figcaption>
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="./Img/tt.jpg" alt="image tt">
+                <figcaption>WINTERFELL.This is our season option this winter, get some extra warm to home</figcaption>
+            </figure>
+        </article>
+    </aside>
+</div>
+
+<!--This is where the flex ends-->
+
+<!--This is my footer of the page-->
+
+<footer>
+    <div>
+        <a href="img">
+            <img src="./Img/hh.jpg"> </a>
+    </div>
+    <div>
+        <h6>Crazy Pizza</h6>
+        <p>Since 1995</p>
+
+        <li><a href="#">Know about Our History</a></li>
+    </div>
+    <div>
+        <form action="somephpfile" method="post" enctype="multipart/form-data">
+            <p><input type="text" placeholder="Ful name" name="name"></p>
+            <p><input type="email" placeholder="Your Email" name="email"></p>
+            <p><textarea placeholder="Add extra Info for your order"></textarea> </p>
+            <p>Specify when and time for deliver or pick up</p>
+            <p><input type="datetime-local"></p>
+            <input type="submit" value="Place order">
+        </form>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
